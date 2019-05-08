@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3270BA02283801B00CFF275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3270B9F2283801B00CFF275 /* AppDelegate.swift */; };
+		C3270BA22283801B00CFF275 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3270BA12283801B00CFF275 /* ViewController.swift */; };
+		C3270BA52283801B00CFF275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3270BA32283801B00CFF275 /* Main.storyboard */; };
+		C3270BA72283801F00CFF275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3270BA62283801F00CFF275 /* Assets.xcassets */; };
+		C3270BAA2283801F00CFF275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3270BA82283801F00CFF275 /* LaunchScreen.storyboard */; };
+		C3270BB52283802000CFF275 /* WeighliftingcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3270BB42283802000CFF275 /* WeighliftingcalculatorTests.swift */; };
+		C3270BC02283802000CFF275 /* WeighliftingcalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3270BBF2283802000CFF275 /* WeighliftingcalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3270BB12283802000CFF275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3270B942283801B00CFF275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3270B9B2283801B00CFF275;
+			remoteInfo = Weighliftingcalculator;
+		};
+		C3270BBC2283802000CFF275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3270B942283801B00CFF275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3270B9B2283801B00CFF275;
+			remoteInfo = Weighliftingcalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3270B9C2283801B00CFF275 /* Weighliftingcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weighliftingcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3270B9F2283801B00CFF275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3270BA12283801B00CFF275 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3270BA42283801B00CFF275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3270BA62283801F00CFF275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3270BA92283801F00CFF275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3270BAB2283801F00CFF275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3270BB02283802000CFF275 /* WeighliftingcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeighliftingcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3270BB42283802000CFF275 /* WeighliftingcalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeighliftingcalculatorTests.swift; sourceTree = "<group>"; };
+		C3270BB62283802000CFF275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3270BBB2283802000CFF275 /* WeighliftingcalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeighliftingcalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3270BBF2283802000CFF275 /* WeighliftingcalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeighliftingcalculatorUITests.swift; sourceTree = "<group>"; };
+		C3270BC12283802000CFF275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3270B992283801B00CFF275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3270BAD2283802000CFF275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3270BB82283802000CFF275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3270B932283801B00CFF275 = {
+			isa = PBXGroup;
+			children = (
+				C3270B9E2283801B00CFF275 /* Weighliftingcalculator */,
+				C3270BB32283802000CFF275 /* WeighliftingcalculatorTests */,
+				C3270BBE2283802000CFF275 /* WeighliftingcalculatorUITests */,
+				C3270B9D2283801B00CFF275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3270B9D2283801B00CFF275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3270B9C2283801B00CFF275 /* Weighliftingcalculator.app */,
+				C3270BB02283802000CFF275 /* WeighliftingcalculatorTests.xctest */,
+				C3270BBB2283802000CFF275 /* WeighliftingcalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3270B9E2283801B00CFF275 /* Weighliftingcalculator */ = {
+			isa = PBXGroup;
+			children = (
+				C3270B9F2283801B00CFF275 /* AppDelegate.swift */,
+				C3270BA12283801B00CFF275 /* ViewController.swift */,
+				C3270BA32283801B00CFF275 /* Main.storyboard */,
+				C3270BA62283801F00CFF275 /* Assets.xcassets */,
+				C3270BA82283801F00CFF275 /* LaunchScreen.storyboard */,
+				C3270BAB2283801F00CFF275 /* Info.plist */,
+			);
+			path = Weighliftingcalculator;
+			sourceTree = "<group>";
+		};
+		C3270BB32283802000CFF275 /* WeighliftingcalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3270BB42283802000CFF275 /* WeighliftingcalculatorTests.swift */,
+				C3270BB62283802000CFF275 /* Info.plist */,
+			);
+			path = WeighliftingcalculatorTests;
+			sourceTree = "<group>";
+		};
+		C3270BBE2283802000CFF275 /* WeighliftingcalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3270BBF2283802000CFF275 /* WeighliftingcalculatorUITests.swift */,
+				C3270BC12283802000CFF275 /* Info.plist */,
+			);
+			path = WeighliftingcalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3270B9B2283801B00CFF275 /* Weighliftingcalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3270BC42283802000CFF275 /* Build configuration list for PBXNativeTarget "Weighliftingcalculator" */;
+			buildPhases = (
+				C3270B982283801B00CFF275 /* Sources */,
+				C3270B992283801B00CFF275 /* Frameworks */,
+				C3270B9A2283801B00CFF275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weighliftingcalculator;
+			productName = Weighliftingcalculator;
+			productReference = C3270B9C2283801B00CFF275 /* Weighliftingcalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3270BAF2283802000CFF275 /* WeighliftingcalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3270BC72283802000CFF275 /* Build configuration list for PBXNativeTarget "WeighliftingcalculatorTests" */;
+			buildPhases = (
+				C3270BAC2283802000CFF275 /* Sources */,
+				C3270BAD2283802000CFF275 /* Frameworks */,
+				C3270BAE2283802000CFF275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3270BB22283802000CFF275 /* PBXTargetDependency */,
+			);
+			name = WeighliftingcalculatorTests;
+			productName = WeighliftingcalculatorTests;
+			productReference = C3270BB02283802000CFF275 /* WeighliftingcalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3270BBA2283802000CFF275 /* WeighliftingcalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3270BCA2283802000CFF275 /* Build configuration list for PBXNativeTarget "WeighliftingcalculatorUITests" */;
+			buildPhases = (
+				C3270BB72283802000CFF275 /* Sources */,
+				C3270BB82283802000CFF275 /* Frameworks */,
+				C3270BB92283802000CFF275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3270BBD2283802000CFF275 /* PBXTargetDependency */,
+			);
+			name = WeighliftingcalculatorUITests;
+			productName = WeighliftingcalculatorUITests;
+			productReference = C3270BBB2283802000CFF275 /* WeighliftingcalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3270B942283801B00CFF275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = AppDev_MD;
+				TargetAttributes = {
+					C3270B9B2283801B00CFF275 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C3270BAF2283802000CFF275 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C3270B9B2283801B00CFF275;
+					};
+					C3270BBA2283802000CFF275 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C3270B9B2283801B00CFF275;
+					};
+				};
+			};
+			buildConfigurationList = C3270B972283801B00CFF275 /* Build configuration list for PBXProject "Weighliftingcalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3270B932283801B00CFF275;
+			productRefGroup = C3270B9D2283801B00CFF275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3270B9B2283801B00CFF275 /* Weighliftingcalculator */,
+				C3270BAF2283802000CFF275 /* WeighliftingcalculatorTests */,
+				C3270BBA2283802000CFF275 /* WeighliftingcalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3270B9A2283801B00CFF275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3270BAA2283801F00CFF275 /* LaunchScreen.storyboard in Resources */,
+				C3270BA72283801F00CFF275 /* Assets.xcassets in Resources */,
+				C3270BA52283801B00CFF275 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3270BAE2283802000CFF275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3270BB92283802000CFF275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3270B982283801B00CFF275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3270BA22283801B00CFF275 /* ViewController.swift in Sources */,
+				C3270BA02283801B00CFF275 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3270BAC2283802000CFF275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3270BB52283802000CFF275 /* WeighliftingcalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3270BB72283802000CFF275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3270BC02283802000CFF275 /* WeighliftingcalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3270BB22283802000CFF275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3270B9B2283801B00CFF275 /* Weighliftingcalculator */;
+			targetProxy = C3270BB12283802000CFF275 /* PBXContainerItemProxy */;
+		};
+		C3270BBD2283802000CFF275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3270B9B2283801B00CFF275 /* Weighliftingcalculator */;
+			targetProxy = C3270BBC2283802000CFF275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3270BA32283801B00CFF275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3270BA42283801B00CFF275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3270BA82283801F00CFF275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3270BA92283801F00CFF275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3270BC22283802000CFF275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3270BC32283802000CFF275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3270BC52283802000CFF275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTB7NMH7J2;
+				INFOPLIST_FILE = Weighliftingcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDAD.Weighliftingcalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3270BC62283802000CFF275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTB7NMH7J2;
+				INFOPLIST_FILE = Weighliftingcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDAD.Weighliftingcalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3270BC82283802000CFF275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTB7NMH7J2;
+				INFOPLIST_FILE = WeighliftingcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDAD.WeighliftingcalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weighliftingcalculator.app/Weighliftingcalculator";
+			};
+			name = Debug;
+		};
+		C3270BC92283802000CFF275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTB7NMH7J2;
+				INFOPLIST_FILE = WeighliftingcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDAD.WeighliftingcalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weighliftingcalculator.app/Weighliftingcalculator";
+			};
+			name = Release;
+		};
+		C3270BCB2283802000CFF275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTB7NMH7J2;
+				INFOPLIST_FILE = WeighliftingcalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDAD.WeighliftingcalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weighliftingcalculator;
+			};
+			name = Debug;
+		};
+		C3270BCC2283802000CFF275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JTB7NMH7J2;
+				INFOPLIST_FILE = WeighliftingcalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MDAD.WeighliftingcalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Weighliftingcalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3270B972283801B00CFF275 /* Build configuration list for PBXProject "Weighliftingcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3270BC22283802000CFF275 /* Debug */,
+				C3270BC32283802000CFF275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3270BC42283802000CFF275 /* Build configuration list for PBXNativeTarget "Weighliftingcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3270BC52283802000CFF275 /* Debug */,
+				C3270BC62283802000CFF275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3270BC72283802000CFF275 /* Build configuration list for PBXNativeTarget "WeighliftingcalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3270BC82283802000CFF275 /* Debug */,
+				C3270BC92283802000CFF275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3270BCA2283802000CFF275 /* Build configuration list for PBXNativeTarget "WeighliftingcalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3270BCB2283802000CFF275 /* Debug */,
+				C3270BCC2283802000CFF275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3270B942283801B00CFF275 /* Project object */;
+}
